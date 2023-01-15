@@ -1,11 +1,11 @@
 # I Executed The Project - Re-Architecting Web App on AWS Cloud (Re-factoring with AWS)
 
 **This approach is used to boost agility or improve business continuity.
-This will help us to easily scale, add new features and better performance of my application**
+This will help us to easily scale, add new features and achieve better performance of our applications**
 
 # SCENARIO
 
-If you have your workload on-prem, you will be faced with these:
+If you have your workload on-premise, you will be faced with these:
 
 - Operational Overhead
 
@@ -65,7 +65,7 @@ Client needs..
 
 **Users will access the URL which will be resolved to an endpoint from Route53. The endpoint will be of Amazon Cloudfront to serve global audience.
 The request wull be redirected to App Loadbalancer and it will be forwarded to an EC2 instance where the app will be running which is in autoscaling group...all inside Elastic Beanstalk. 
-There will be cloudwatch alarm that will be mornitoring autoscaling group and will scale out and scale in base on requirement. There will be S3 bucket where artifact will be stored and we can deploy from there. For backend, it will access Amazon MQ, Elastic cache and amazon RDS.**
+There will be cloudwatch alarm that will be mornitoring autoscaling group and will scale out and scale in base on requirement. There will be S3 bucket where artifact will be stored and we can deploy from there. For backend, it will access Amazon MQ, Elasticache and Amazon RDS.**
 
 
 # FLOW OF EXECUTION
@@ -88,4 +88,4 @@ There will be cloudwatch alarm that will be mornitoring autoscaling group and wi
 - Test URL
 
 
-**DETAILED EXECUTION STEP COMING SOON**
+**DETAILED EXECUTION STEPS COMING SOON**
